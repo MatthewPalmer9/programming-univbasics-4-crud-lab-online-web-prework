@@ -37,7 +37,7 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
-  arr = ["item1", "item2", "item3"]
+  arr = ["item1", "item2", "item3", "arrays!"]
   arr[-1]
 end
 
