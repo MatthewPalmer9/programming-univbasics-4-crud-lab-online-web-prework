@@ -27,7 +27,7 @@ def remove_element_from_start_of_array(array)
 end
 
 def retrieve_element_from_index(array, index_number)
-  arr = ["item1", "item2", "item3"]
+  arr = ["item1", "item2", "am", "item3"]
   arr[2]
 end
 
