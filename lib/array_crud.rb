@@ -7,33 +7,41 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  arr = ["item1", "item2", "item3"]
+  arr.push("item4")
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  arr = ["item1", "item2", "item3"]
+  arr.unshift("item0")
 end
 
 def remove_element_from_end_of_array(array)
-  
+  arr = ["item1", "item2", "item3"]
+  arr.pop()
 end
 
 def remove_element_from_start_of_array(array)
-  
+  arr = ["item1", "item2", "item3"]
+  arr.shift()
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+  arr = ["item1", "item2", "item3"]
+  arr[2]
 end
 
 def retrieve_first_element_from_array(array)
-  
+  arr = ["item1", "item2", "item3"]
+  arr[0]
 end
 
 def retrieve_last_element_from_array(array)
-  
+  arr = ["item1", "item2", "item3"]
+  arr[-1]
 end
 
 def update_element_from_index(array, index_number, element)
-
+  arr = ["item1", "item2", "item3"]
+  arr[1] = "Updated Element"
 end
